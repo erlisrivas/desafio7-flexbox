@@ -1,0 +1,142 @@
+body {
+    font-family:'roboto', sans-serif;
+    margin: 0%;
+    padding: 0%;
+      }
+
+.container{
+    display:flex;
+}
+
+.principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex: 75%;
+    padding-left: 10em;
+    padding-right: 10em;
+    background-color: rgb(235, 232, 232);
+}
+
+.principal img{
+    width: 30%;
+    border-radius: 10%;
+}
+
+h1{
+    font-size: 3rem;
+    margin: 2%;  
+}
+
+.textp {
+    font-size: 1.18rem;
+    text-align: center;
+    width: 65%;
+    padding: 0%;
+    margin: 0%;
+}
+
+.contactos{
+    display: flex;
+    flex-direction: column;
+    flex:25%;   
+}
+
+.datos{
+    display: flex;
+    height: 3em;
+    flex-direction: row;
+    padding-left: 1em;
+    padding-top: 1em;
+    border: solid 0.3px gray;
+}
+
+.datos img {
+    border-radius: 50%;
+    height: 70%;  
+}
+.texto{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    margin: 0%;
+    padding-left: 0.5em;
+  }
+
+ p{
+    margin: 0%;
+    padding: 0%;
+    font-size: 14px;
+    }
+
+.contacto-activo{
+   display: flex; 
+   border: solid 0.3px gray;
+   justify-content: space-between;
+   flex-direction: row;
+   align-items: center;
+    }
+
+.maria{
+    display: flex;
+    align-content: center;
+    height: 3em;
+    flex-direction: row;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+
+.maria img {
+    border-radius: 50%;
+    height: 70%;
+    
+}
+
+h4{
+    margin: 0%;
+    padding: 0%;
+    font-weight: 500;
+    font-weight: bold;
+     }
+
+.active{
+    margin:0%;
+    padding:0%;
+    color: gray;
+    font-size: 0.8rem;
+    
+}
+.icon{
+    display: flex;
+    justify-content: space-between;
+}
+.iconos{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 0.5em;
+    padding: 0.5em;
+    height: 3em;
+}
+
+.boton-chat{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 4em;
+    padding: 2em;
+    border: solid 0.3px gray;
+}
+
+.chat{
+    background-color: #a491d2;
+    color: white;
+    padding: 1em;
+    padding-left: 3em;
+    padding-right: 3em;
+    font-weight: 500;
+}
+
